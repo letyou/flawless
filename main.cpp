@@ -31,7 +31,7 @@ int main()
     qDebug("次低8位和最低8位最小值：0x%x(%d)",MIN(HLO(s),LLO(s)),MIN(HLO(s),LLO(s)));
 
     qDebug("重新组合后数值：0x%x(%d)",z,z);
-    std::sort(values.begin(),values.end(),std::less<byte>());//升序
+  
     qDebug()<<"排序前："<<values;
     std::sort(values.begin(),values.end(),std::greater<byte>());//降序
     qDebug()<<"排序后："<<values;
