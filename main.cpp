@@ -32,7 +32,7 @@ int main()
 
     qDebug("重新组合后数值：0x%x(%d)",z,z);
     std::sort(values.begin(),values.end(),std::less<byte>());//升序
-    qDebug()<<values;
+    qDebug()<<"排序前："<<values;
     std::sort(values.begin(),values.end(),std::greater<byte>());//降序
-    qDebug()<<values;
+    qDebug()<<"排序后："<<values;
 }
