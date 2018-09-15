@@ -2,7 +2,6 @@
 #include <QDebug>
 #include <QList>
 
-#include <vector>
 
 #define s 0x12345678
 #define MAX(x,y) ( ((x) > (y)) ? (x) : (y) )//最大值
